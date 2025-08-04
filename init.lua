@@ -268,6 +268,12 @@ require('lazy').setup({
   --            })
   --        end,
   --    }
+  {
+    'm4xshen/autoclose.nvim', --auto close brackets
+    config = function()
+      require('autoclose').setup {}
+    end,
+  },
   --
   -- Here is a more advanced example where we pass configuration
   -- options to `gitsigns.nvim`.
