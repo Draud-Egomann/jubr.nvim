@@ -274,6 +274,16 @@ require('lazy').setup({
       require('autoclose').setup {}
     end,
   },
+  {
+    'akinsho/toggleterm.nvim', --auto close brackets
+    config = function()
+      require('toggleterm').setup {
+        open_mapping = [[<C-t>]],
+        direction = 'float',
+      }
+    end,
+  },
+
   --
   -- Here is a more advanced example where we pass configuration
   -- options to `gitsigns.nvim`.
