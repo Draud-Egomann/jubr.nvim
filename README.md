@@ -84,13 +84,13 @@ git clone git@github.com:Draud-Egomann/jubr.nvim.git "${XDG_CONFIG_HOME:-$HOME/.
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/patricehotz/paho.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/patricehotz/paho.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
